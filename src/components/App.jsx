@@ -69,7 +69,7 @@ export class App extends Component {
   };
 
   render() {
-    console.log('Компонент App зарендерився');
+    // console.log('Компонент App зарендерився');
 
     const { filter, contacts } = this.state;
     return (

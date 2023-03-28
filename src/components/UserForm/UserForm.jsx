@@ -3,6 +3,8 @@ import css from './UserForm.module.css';
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
 
+const cat = '';
+
 export class UserForm extends Component {
   state = {
     name: '',
